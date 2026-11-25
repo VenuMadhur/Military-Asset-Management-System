@@ -15,6 +15,7 @@
     "prisma:migrate:dev": "prisma migrate dev",
     "prisma:migrate:deploy": "prisma migrate deploy",
     "prisma:seed": "node prisma/seed.js",
+    "prisma:provision:prod": "node prisma/provisionProductionAccounts.js",
     "test": "vitest run --pool=forks"
   },
   "dependencies": {
